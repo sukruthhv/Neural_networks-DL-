@@ -27,7 +27,8 @@ Let me try to explain the basic terminology of the Neural Networks through the p
 
 ***
 **Gradient Descent:** This is very important concept to understand for any regression analysis w.r.t Loss computation. 
-![enter image description here](https://i.ytimg.com/vi/aR0M-xtcaaU/hqdefault.jpg)Consider the above graph, where the X-axis represent the random weights that gets initialized to compute the DOT products at the HL (w1*x1+w2*x2+w3*x3+....), all the w's are called weights. Now these weights are initialized randomly. The Y-axis is basically the Loss function denoted as 'J'. The aim here is to attain the Minimal Loss "J" for the given weights. 
+![enter image description here](https://i.ytimg.com/vi/aR0M-xtcaaU/hqdefault.jpg)
+Consider the above graph, where the X-axis represent the random weights that gets initialized to compute the DOT products at the HL (w1*x1+w2*x2+w3*x3+....), all the w's are called weights. Now these weights are initialized randomly. The Y-axis is basically the Loss function denoted as 'J'. The aim here is to attain the Minimal Loss "J" for the given weights. 
 How do we do this? We basically do a differentiation of Loss w.r.t weights with some learning rate "alpha". Basically we are finding the slope here and trying to achieve the minima.
 
 **Activation functions:**
